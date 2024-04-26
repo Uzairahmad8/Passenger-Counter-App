@@ -44,3 +44,11 @@ button {
     max-width: 1440px;
     margin: 50px auto;
 }
+
+@media (max-width: 420px){
+    #reset-btn,
+    #increment-btn,
+    #save-btn {
+        margin-bottom: 10px;
+    }
+}
