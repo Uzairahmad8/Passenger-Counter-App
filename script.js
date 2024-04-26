@@ -18,5 +18,12 @@ function save(){
     countParagraph.textContent += saveCount;
     count = 0;
     saveCount = 0;
-    countElement.innerText = count;
+    countElement.textContent = count;
+}
+
+function reset(){
+    saveCount = 0;
+    count = 0;
+    countElement.textContent = count;
+    countParagraph.textContent = "Previous Entries: ";
 }
