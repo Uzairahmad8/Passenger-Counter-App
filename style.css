@@ -25,6 +25,7 @@ button {
     border-radius: 5px;
 }
 
+#reset-btn,
 #increment-btn {
     background: darkred;
     cursor: pointer;
@@ -32,4 +33,14 @@ button {
 
 #save-btn {
     background: darkgreen;
+}
+
+#reset-btn {
+    display: block;
+    margin-inline: auto;
+}
+
+.main {
+    max-width: 1440px;
+    margin: 50px auto;
 }
