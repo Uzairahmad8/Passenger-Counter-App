@@ -1,1 +1,1 @@
-Live Preview: (https://passangercount8.netlify.app/)
+Live Preview: https://passangercount8.netlify.app/
